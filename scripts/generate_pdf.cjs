@@ -20,7 +20,7 @@ const fs = require('fs');
     // Assuming dev server is running on 5173
     try {
         console.log('Navigating to page...');
-        await page.goto('http://localhost:5173', {
+        await page.goto('http://localhost:5173/1pageKC/', {
             waitUntil: 'networkidle0', // Wait for animations/loading
             timeout: 60000
         });
