@@ -1,5 +1,6 @@
 import { ArrowRight, Users, PlayCircle } from 'lucide-react';
 import { Button } from '../ui/Button';
+import channelData from '../../data/channel.json';
 
 export function Hero() {
     return (
@@ -20,11 +21,11 @@ export function Hero() {
                         <span className="hidden sm:inline">|</span>
                         <div className="flex items-center gap-1.5">
                             <Users className="w-4 h-4 text-blue-500" />
-                            <span>4.1萬+ 訂閱</span>
+                            <span>{channelData.subscribers} 訂閱</span>
                         </div>
                         <div className="flex items-center gap-1.5">
                             <PlayCircle className="w-4 h-4 text-blue-500" />
-                            <span>25萬+ 月觀看</span>
+                            <span>{channelData.monthlyViews} 月觀看</span>
                         </div>
                     </div>
                 </div>
