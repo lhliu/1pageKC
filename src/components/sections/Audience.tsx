@@ -1,4 +1,4 @@
-import { Tv, Briefcase, Monitor, Smartphone, Users, TrendingUp, FileText, Zap } from 'lucide-react';
+import { Briefcase, Monitor, Users, TrendingUp } from 'lucide-react';
 import channelData from '../../data/channel.json';
 import { Carousel } from '../ui/Carousel';
 import img1 from '../../assets/audience/img1.png';
