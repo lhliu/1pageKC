@@ -1,4 +1,4 @@
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Users, PlayCircle } from 'lucide-react';
 import { Button } from '../ui/Button';
 
 export function Hero() {
@@ -12,8 +12,21 @@ export function Hero() {
             </div>
 
             <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-                <div className="inline-block mb-4 px-3 py-1 rounded-full bg-blue-50 border border-blue-100 text-blue-600 text-sm font-medium tracking-wide backdrop-blur-sm">
-                    理性數據・真實場景・深度決策
+                <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-6">
+                    <div className="inline-block px-3 py-1 rounded-full bg-blue-50 border border-blue-100 text-blue-600 text-sm font-medium tracking-wide backdrop-blur-sm">
+                        理性數據・真實場景・深度決策
+                    </div>
+                    <div className="flex items-center gap-3 text-slate-500 text-sm font-medium">
+                        <span className="hidden sm:inline">|</span>
+                        <div className="flex items-center gap-1.5">
+                            <Users className="w-4 h-4 text-blue-500" />
+                            <span>4.1萬+ 訂閱</span>
+                        </div>
+                        <div className="flex items-center gap-1.5">
+                            <PlayCircle className="w-4 h-4 text-blue-500" />
+                            <span>25萬+ 月觀看</span>
+                        </div>
+                    </div>
                 </div>
 
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold tracking-tight mb-8">

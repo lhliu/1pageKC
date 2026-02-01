@@ -8,11 +8,14 @@ import { Testimonials } from './components/sections/Testimonials';
 import { Workflow } from './components/sections/Workflow';
 import { Cooperation } from './components/sections/Cooperation';
 import { Footer } from './components/layout/Footer';
+import { DownloadButton } from './components/ui/DownloadButton';
+import { PrintHeader } from './components/ui/PrintHeader';
 
 function App() {
   return (
     <div className="min-h-screen bg-slate-50 font-sans text-slate-700 selection:bg-blue-100 selection:text-blue-900">
       <Navbar />
+      <PrintHeader />
       <main>
         <Hero />
         <Profile />
@@ -23,6 +26,7 @@ function App() {
         <Workflow />
         <Cooperation />
       </main>
+      <DownloadButton />
       <Footer />
     </div>
   );
