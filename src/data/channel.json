@@ -1,42 +1,43 @@
 {
-    "subscribers": "4.1萬+",
-    "totalViews": "待更新",
-    "monthlyViews": "24.9萬",
-    "monthlyWatchTime": "2.5萬小時",
-    "monthlyGrowth": "+2,250",
-    "topRegions": [
-        {
-            "name": "台灣",
-            "value": "85.4%",
-            "tag": "核心市場"
-        },
-        {
-            "name": "美國",
-            "value": "3.4%",
-            "tag": "海外華人"
-        },
-        {
-            "name": "香港",
-            "value": "1.0%",
-            "tag": "跨國置產"
-        }
-    ],
-    "topInterests": [
-        "裝修/驗屋 (小武郎)",
-        "房產攻略 (安娜)",
-        "科技/實測 (Joeman)"
-    ],
-    "ageDistribution": {
-        "35-44": "26.3%",
-        "45-54": "25.6%",
-        "55-64": "17.5%",
-        "25-34": "18.9%"
+  "subscribers": "4.1萬+",
+  "totalViews": "待更新",
+  "monthlyViews": "24.9萬",
+  "monthlyWatchTime": "2.5萬小時",
+  "monthlyGrowth": "+2,250",
+  "topRegions": [
+    {
+      "name": "台灣",
+      "value": "85.4%",
+      "tag": "核心市場"
     },
-    "deviceDistribution": {
-        "TV": "46.1%",
-        "Mobile": "23.4%",
-        "Computer": "21.6%",
-        "Tablet": "8.9%"
+    {
+      "name": "美國",
+      "value": "3.4%",
+      "tag": "海外華人"
     },
-    "lastUpdated": "2026-02-01"
+    {
+      "name": "香港",
+      "value": "1.0%",
+      "tag": "跨國置產"
+    }
+  ],
+  "topInterests": [
+    "裝修/驗屋 (小武郎)",
+    "房產攻略 (安娜)",
+    "科技/實測 (Joeman)"
+  ],
+  "ageDistribution": {
+    "35-44": "26.3%",
+    "45-54": "25.6%",
+    "55-64": "17.5%",
+    "25-34": "18.9%"
+  },
+  "deviceDistribution": {
+    "TV": "46.1%",
+    "Mobile": "23.4%",
+    "Computer": "21.6%",
+    "Tablet": "8.9%"
+  },
+  "lastUpdated": "2026-02-02",
+  "views": "764.5萬+"
 }
